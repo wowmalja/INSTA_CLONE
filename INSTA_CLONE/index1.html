@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>로그인 • Instagram</title>
   <link rel="stylesheet" href="./style1.css">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="../INSTA_CLONE/main/color.css">
+  <link rel="stylesheet" href="../INSTA_CLONE/main/reset.css">
+
 </head>
 <body>
   <div class="wrapper">
@@ -19,7 +23,7 @@
           </a>
         </h1>
 
-        <form id="login-form" class="login-form" action="">
+        <form id="login-form" action="./main/index.html" action="">
           <div class="animate-input">
             <input id="userid" type="text">
             <span>전화번호 사용자 이름 또는 이메일</span>
@@ -31,7 +35,7 @@
             <button id="pw-visible" type="button">비밀번호 표시</button>
           </div>
 
-          <button id="submit-btn" class="btn-blue" type="submit" disabled>로그인</button>
+          <button type="submit" class="btn-blue" id="login-btn" disabled>로그인</button>
         </form>
 
         <div class="or-box">
@@ -81,7 +85,7 @@
         <li><a href="">개인정보처리방침</a></li>
         <li><a href="">약관</a></li>
         <li><a href="">인기 계정</a></li>
-        <li><a id="mode-toggle" href="">Darkmode</a></li>
+        <li><a id="mode-btn" href="">Darkmode</a></li>
       </ul>
 
       <p class="copyright">© 2024 Instagram from Meta</p>
